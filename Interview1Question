@@ -1,0 +1,17 @@
+Problem statement:
+Calculate air distance between start point and end point of a route.
+
+I have a car under auto navigation, that takes commands to move from start point to end point on a 2 dimension XY coordinate space. 
+Car will move only N, S, W, E directions (stands for Noth, South, West, East) 
+It understands commands in the form of direction and distance. Direction can be either of N,S,W,E and distance can be a number.
+For example N 5 means the car will move northwards by 5 m from the current position. S 10 means the car will move southwards by 10 m from the current position.
+In the program you are supposed to find the air distance(displacement) the car moved from start point to end point while travelling by taking a sequence of commands. 
+
+INPUT
+X Y coordinates of start position
+Comma separated sequence of commands 
+
+OUTPUT
+X Y coordinates of end position
+
+Distance between start and end position.
